@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    html, body {
+        height: 100%;
+        margin: 0;
+    }
+
+    .scherm1{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+        height: 90%;
+    }
+
+     @media only screen and (max-width: 2000px) {
+        .scherm1 {
+          background-color: red;
+        }
+      }
+      @media only screen and (max-width: 1000px) and (max-height:500px) {
+        .scherm1 {
+          background-color: yellow;
+        }
+      }
+      @media only screen and (max-width: 800px) and (max-height:400px) {
+        .scherm1 {
+          background-color: green;
+        }
+      }
+      @media only screen and (max-width: 600px) and (max-height:300px) {
+        .scherm1 {
+          background-color: blue;
+        }
+      }
+   </style>
+</head>
+<body>
+    <div class="scherm1"> </div>
+</body>
+</html>

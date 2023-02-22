@@ -1,0 +1,58 @@
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap; /* Allows the list items to wrap to the next line when there isn't enough space */
+    border-style: solid;
+    border-width: 3px;
+    border-color: orange;
+    background-color: green;
+    width: 750px;
+  }
+  
+  .nav-item {
+    flex: 1; /* Allows the list items to take up equal amounts of space */
+    text-align: center;
+  
+  }
+  
+  .nav-item a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    display: block;
+  }
+  
+  .nav-item a:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Media query for screens smaller than 600px */
+  @media only screen and (max-width: 600px) {
+    .nav-item {
+      flex-basis: 100%; /* Each list item takes up the full width of the container */
+      margin-right: 0; /* Removes the right margin */
+    }
+  }
+  
+  /* Media query for screens larger than 600px and smaller than 1000px*/
+  @media only screen and (min-width: 600px) and (max-width: 1000px) {
+      .nav-item {
+         flex-basis: 50%; /* Each list item takes up half the width of the container */
+         margin-right: 0; /* Removes the right margin */
+       }
+  }
+
+.img{
+    width: 486px;
+    height: 250px;
+}
+  

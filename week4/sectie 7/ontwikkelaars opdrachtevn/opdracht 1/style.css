@@ -1,0 +1,23 @@
+.flex-container{
+    width: 1000px;
+    height: 1000px;
+    display: flex;
+    border-style: dashed;
+    border-color: black;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex-child{
+    background-color: #ff80ff;
+    border-width: 3px;
+    border-style: dashed;
+    border-color: blue;
+    padding: 5px;
+    justify-content:center;
+    display: flex;
+    width: 484px;
+    height: 95px;
+    flex-direction: row;
+    white-space: 0%;
+}

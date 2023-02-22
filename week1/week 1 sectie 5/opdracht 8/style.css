@@ -1,0 +1,76 @@
+.headimg {
+    position: absolute;
+    top:0%;
+    left: 0%;
+    width:100%;
+    height:auto;
+}
+
+.cover{
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    height: 60%;
+    bottom: 0%;
+    left: 0%;
+}
+
+.tekst{
+    position:absolute;
+    left:35%;
+    text-align: center;
+    border-bottom: solid;
+    border-color: orange;
+    margin-bottom: 5px;
+    height: 15%;
+}
+
+.naam{
+    position:absolute;
+    top: 20%;
+    left:35%;
+    text-align: center;
+} 
+
+.email{
+    position:absolute;
+    top: 30%;
+    left:35%;
+    text-align: center;
+}
+
+.wachtwoord{
+    position:absolute;
+    top: 40%;
+    left:35%;
+    text-align: center;
+}
+
+.geslacht{
+    position:absolute;
+    top: 50%;
+    left:35%;
+    text-align: center;
+}
+
+.media{
+    position:absolute;
+    top: 60%;
+    left:35%;
+    text-align: center;
+}
+
+.tekstveld1{
+    position: absolute;
+    justify-content: center;
+}
+.tekstveld2{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+.tekstveld3{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+}

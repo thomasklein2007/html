@@ -1,0 +1,59 @@
+.flex-container{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-style: solid;
+    border-color: black;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.flex-child{
+    border-width: 3px;
+    border-style: solid;
+    border-color: green;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 138px;
+    padding-bottom: 138px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.flex-child10{
+    border-width: 3px;
+    border-style: solid;
+    border-color: green;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 138px;
+    padding-bottom: 138px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+@media (max-width: 560px) {
+    .flex-container{
+        width: 33%;
+        flex-direction: row;
+    }
+
+    .flex-child{
+        height: 60px;
+        width: 330px;
+        padding: 0%;
+        margin: 0%;
+        border: 0px;
+    }
+
+    .flex-child10{
+        height: 60px;
+        width: 330px;
+        padding: 0%;
+        margin: 0%;
+        border: 0px;
+    }
+}

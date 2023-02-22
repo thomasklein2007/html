@@ -1,0 +1,35 @@
+1. het is een vervanging voor flex-box
+2. grid is complexer dan flex-box 
+3. <div class="grid-container">
+  <div class="grid-item">1</div>
+  <div class="grid-item">2</div>
+  <div class="grid-item">3</div>
+  <div class="grid-item">4</div>
+  <div class="grid-item">5</div>
+  <div class="grid-item">6</div>
+  <div class="grid-item">7</div>
+  <div class="grid-item">8</div>
+  <div class="grid-item">9</div>
+  </div>
+4. grid item zit in de container
+5. line in de grid
+6. nee òmdat je meerdere cells nodig hebt om een area te maken
+7. je beeld fractionen
+8. 400px
+9. 600px
+10. 200px
+11. 266px
+12. het is niet het zelfde want 1 fr hoeft niet 50 % te zijn
+13. dat het door gaat tot het begin van de container
+14. dat het 2 colommen breedt kan
+15. A B C 
+16. A C 
+17. explicit is alleen wat jij gedifiened hebt en implicit doet gewoon zoveel als kan
+18. dat maakt zoveel rows als dat past
+19. het geeft maximale groote van de content in de grid
+20. het geeft minimale groote van de content in de grid
+21. .grid-container {
+    display: grid;
+    grid-template-columns: minmax(100px, 1fr) 2fr 1fr;
+    }
+    het geeft de minimalen en de maximale groote van de content in de grid

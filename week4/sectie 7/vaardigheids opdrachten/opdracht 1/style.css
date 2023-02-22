@@ -1,0 +1,19 @@
+.flex-container{
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    border-style: solid;
+    border-color: black;
+}
+
+.flex-child{
+    border-width: 3px;
+    border-style: solid;
+    border-color: green;
+    padding: 5px;
+    justify-content:center;
+    display: flex;
+    width: 5px;
+    height: 585px;
+    flex-direction: row-reverse;
+}

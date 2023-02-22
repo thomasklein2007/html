@@ -1,0 +1,101 @@
+.parent {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 900px;
+    height: 575px;
+    background-color: #302c58;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 20%;
+}
+
+.child {
+    width: 30%;
+    height: 30%;
+}
+
+.foto{
+    width: 90%;
+    height: 90%;
+}
+
+.foto:hover{
+    scale: 1.01;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-style: solid;
+    border-color: black;
+    padding-right: 3px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+nav > a{
+    border-style: solid;
+    border-color: black;
+    margin-left: 3px;
+    margin-top: 3px;
+    height: 40px;
+    background-color: #963d72;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    color: white;
+}
+
+nav > a:hover{
+    scale: 1.02;
+    transition: 0.5s;
+}
+
+.footer{
+    background-color: #22745d;
+    color: white;
+}
+
+html{
+    background: rgb(133,15,80);
+    background: linear-gradient(180deg, rgba(133,15,80,1) 0%, rgba(48,44,88,1) 50%, rgba(13,81,45,1) 100%);
+}
+
+@media only screen and (max-width: 1366px) {
+    body {
+        font-size: 16px;
+        padding: 10px;
+    }
+    .parent{
+        margin-left: 75px;
+        width: 700px;
+        height: 575px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+        padding: 5px;
+    }
+    .parent{
+        margin-left: 25px;
+        width: 600px;
+        height: 600px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    body {
+        font-size: 12px;
+        padding: 0px;
+    }
+    .parent{
+        margin-left: 0px;
+    }
+}

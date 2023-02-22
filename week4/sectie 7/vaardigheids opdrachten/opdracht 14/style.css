@@ -1,0 +1,25 @@
+.flex-container{
+    padding-left: 20px;
+    width: 600px;
+    height: 510px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    border-style: solid;
+    border-color: black;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.flex-child{
+    border-width: 3px;
+    border-style: solid;
+    border-color: green;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 115px;
+    padding-bottom: 115px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
